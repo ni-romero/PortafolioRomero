@@ -13,7 +13,7 @@
   "devDependencies": {},
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
+    "server": "node index.js",
     "my-portafolio": "npm run start --prefix my-portafolio",
     "dev": "concurrently \"npm run server\" \"npm run my-portafolio\""
   },

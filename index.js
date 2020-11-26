@@ -25,18 +25,22 @@ app.post("/api/form", (req, res) => {
           host: "smtp.gmail.com" ,
           port: "587",
           auth: {
-              user: "luz.nicole.maria@gmail.com",
-              pass : "39356180"
+              user: process.env.user,
+              pass : process.env.password
           }
         });
 
         let mailOptions = {
-            from : "luz.nicole.maria@gmail.com",
+            from : "romerotamara.sol@gmail.com",
             to: req.body.email,
             replyTo: "luz.nicole.maria@gmail.com",
             subject : req.body.nombre,
             text: req.body.asunto,
-            html : htmlEmail
+            html : htmlEmail,
+            envelope: {
+                from: 'Daemon <romerotamara.sol@gmail.com>', // used as MAIL FROM: address for SMTP
+                to: 'luz.nicole.maria@gmail.com, Mailer <luz.nicole.maria@gmail.com>' // used as RCPT TO: address for SMTP
+            }
 
         };
         transporter.sendMail(mailOptions, (err, info) =>{
