@@ -1,7 +1,8 @@
 import React, {Component, useState} from 'react';
 import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 // import { useForm } from 'react-hook-form'
-// import { init } from 'emailjs-com';
+import { init } from 'emailjs-com';
+import axios from "axios"
 init("user_VOkIPiyJWwBXHOfJP1kTB");
 
 class Contacto extends Component  {
@@ -10,10 +11,10 @@ class Contacto extends Component  {
    email = React.createRef();
    asunto = React.createRef();
 
-   state = {
-     name = '',
-     email = '' ,
-     asunto = ''
+   state= {
+     name: '',
+     email: '' ,
+     asunto: ''
 
    }
    comprobarCambios = () => {
@@ -26,12 +27,14 @@ class Contacto extends Component  {
       email : email,
       asunto : asunto
      });
+     
    };
    constructor() {
     super() ; 
     this.enviarEmail = this.enviarEmail.bind(this);
+    
   }
-    async(e) {
+    async enviarEmail(e) {
       e.preventDefault();
       const { name, email, asunto} = this.state;
       const form = await axios.post("/api/form", {
@@ -39,6 +42,7 @@ class Contacto extends Component  {
         email,
         asunto
       });
+    
     } 
    render(){
    return (
@@ -73,9 +77,6 @@ class Contacto extends Component  {
                   onChange={this.comprobarCambios}
                   ref={this.email}
                 />
-                <span className="text-danger text-small d-block mb-2">
-                  {errors.email && errors.email.message}
-                </span>
               </Form.Group>
               <Form.Group controlId="exampleForm.ControlTextarea1 ">
                 <Form.Label className="text-white" >Affair</Form.Label>
