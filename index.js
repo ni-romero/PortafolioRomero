@@ -10,10 +10,10 @@ app.use(bodyParser.urlencoded( ({
     extended: false
 })));
 if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'staging') {
-    app.use(express.static(path.join(__dirname, 'client/build')));
+    app.use(express.static(path.join(__dirname, 'my-portafolio/build')));
 
     app.get('*', function (req, res) {
-        res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+        res.sendFile(path.join(__dirname, 'my-portafolio/build', 'index.html'));
     });
 };
 
