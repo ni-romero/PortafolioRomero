@@ -1,5 +1,5 @@
 {
-  "name": "PortafolioRomero",
+  "name": "PORTAFOLIOROMERO",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -15,8 +15,6 @@
     "start": "node index.js",
     "client:build": "cd my-portafolio && npm run build",
     "client": "cd my-portafolio && npm start",
-
-    "build": "react-scripts build",
     "server": "node index.js",
     "dev": "concurrently \"npm run server\" \"npm run my-portafolio\""
   },
