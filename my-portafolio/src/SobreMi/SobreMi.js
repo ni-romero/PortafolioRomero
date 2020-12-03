@@ -6,7 +6,7 @@ const SobreMi = () => {
         <>
             <Container fluid>
                 <Row className="p-5">
-                    <Col xs={12} md={12} lg={8} xl={7} className="cajaSobremi p-5">
+                    <Col xs={12} md={12} lg={8} xl={7} className="cajaSobremi p-5" id="about">
                         <h1 className="text-center textosobremi my-4">About me <spam className="punto">.</spam></h1>
                         <br></br>
                         <h2 className="textoInfo ">I took a Fullstack course at Rolling Code School with a duration of 9 months,

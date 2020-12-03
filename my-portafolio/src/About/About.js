@@ -13,9 +13,9 @@ const About = () => {
         <Navbar className="navbar-expand-lg navbar-dark navegador scrolling-navbar fixed-top">
           <Navbar.Brand href="#home">Nicole</Navbar.Brand>
           <Nav className="mr-auto">
-            <Nav.Link href="#home">About</Nav.Link>
-            <Nav.Link href="#features">Skills</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+            <Nav.Link href="#about">About</Nav.Link>
+            <Nav.Link href="#skills">Skills</Nav.Link>
+            <Nav.Link href="#contact">Contact</Nav.Link>
           </Nav>
         </Navbar>
         <Row>
@@ -32,8 +32,8 @@ const About = () => {
             <br></br>
             <br></br>
             <div className="d-flex flex-direction-row">
-              <Button size="lg" className="text-center form-control botones m-4" >Contact me</Button>
-              <Button size="lg" className="text-center botones-trans form-control m-4">Ultimos Trabajos</Button>{' '}
+              <Button size="lg" className="text-center form-control botones m-4" >Contact me</Button><a href="#contact"></a>
+              <Button size="lg" className="text-center botones-trans form-control m-4">Ultimos Trabajos</Button>{' '}<a href="https://github.com/ni-romero"></a>
             </div>
 
           </Col>

@@ -48,7 +48,7 @@ class Contacto extends Component  {
    return (
     <>
 
-      <Container fluid className="conteinerskills p-5">
+      <Container fluid className="conteinerskills p-5" id="contact">
         <h1 className="text-center tituloContacto text-white my-4"> Contact me <spam className="punto">.</spam></h1>
         <Row className="p-5 contacto">
           <Col xs={12} lg={6} xl={6} className="p-4">

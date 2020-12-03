@@ -6,7 +6,7 @@ const Skills = () => {
     return (
         <>
         
-            <Container fluid className="my-5">
+            <Container fluid className="my-5" id="skills">
             <h1 className="text-center my-4 skills"> Skills <spam className="punto">.</spam></h1>
                 <Row className="p-5">
                     <Col  sm={12} lg={6} xl={4}>
