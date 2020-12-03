@@ -10,8 +10,8 @@
 }
 .textoPrincipal{
 color: whitesmoke;
-  font-size: 4rem;
-  margin-top: 250px;
+  font-size: 3rem;
+  margin-top: 200px;
   font-family: 'Fredoka One', cursive;
 }
 .fotoSonbremi{
@@ -24,11 +24,11 @@ color: whitesmoke;
   
 }
 .punto{
-  font-size: 4rem;
+  font-size: 3rem;
   color: rgb(255, 0, 98);
 }
 .textosobremi{
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: 'Fredoka One', cursive;
 }
 .textoColor{
@@ -45,11 +45,11 @@ color: whitesmoke;
 }
 .skills{
   font-family: 'Fredoka One', cursive;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .tituloContacto{
   font-family: 'Fredoka One', cursive;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .contacto{
   margin: 0;
@@ -71,12 +71,12 @@ color: whitesmoke;
   height: 140px !important;
 }
 .botones{
-  height: 60px !important;
+  height: 50px !important;
   background-color: rgb(255, 0, 98) !important;
   border: solid 1px rgb(255, 0, 98) !important;
 }
 .botones-trans{
-  height: 60px !important;
+  height: 50px !important;
   border: solid 2px rgb(255, 0, 98) !important;
   background-color: transparent !important;
 }
@@ -101,15 +101,15 @@ color: whitesmoke;
   background-color: rgba(161, 37, 85, 0.096);
 }
 .textosobremi:hover{
-font-size: 4rem;
+font-size: 3rem;
 transition: 0.8s;
 }
 .skills:hover{
-  font-size: 4rem;
+  font-size: 3rem;
   transition: 0.9s;
 }
 .tituloContacto:hover{
-  font-size: 4rem;
+  font-size: 3rem;
   transition: 0.8s;
 }.botones-trans:hover{
   height: 90px !important;
@@ -152,10 +152,10 @@ transition: 0.8s;
     padding: 0 !important;
   }
   .textoInfo{
-    font-size: 1rem;
+    font-size: 0.6rem;
   }
   .presentacion{
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
   .img-fondo{
     height: 90vh;
@@ -178,7 +178,7 @@ transition: 0.8s;
   
   }
   .redescontac{
-    font-size: 1rem !important;
+    font-size: 0.5rem !important;
   }
   .nav-link{
     font-size: 1rem !important;
