@@ -10,7 +10,7 @@
 }
 .textoPrincipal{
 color: whitesmoke;
-  font-size: 5rem;
+  font-size: 4rem;
   margin-top: 250px;
   font-family: 'Fredoka One', cursive;
 }
@@ -24,15 +24,15 @@ color: whitesmoke;
   
 }
 .punto{
-  font-size: 5rem;
+  font-size: 4rem;
   color: rgb(255, 0, 98);
 }
 .textosobremi{
-  font-size: 4rem;
+  font-size: 3rem;
   font-family: 'Fredoka One', cursive;
 }
 .textoColor{
-  font-size: 3rem!important;
+  font-size: 2rem!important;
   color: crimson;
 }
 .linea{
