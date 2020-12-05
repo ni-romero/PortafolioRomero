@@ -52,10 +52,10 @@ class Contacto extends Component  {
         <h1 className="text-center tituloContacto text-white my-4"> Contact me <spam className="punto">.</spam></h1>
         <Row className="p-5 contacto">
           <Col xs={12} lg={6} xl={6} className="p-4">
-            <a href="tel:+ 03875643808"> <h1 className="redescontac text-white my-5"> <i class="fas fa-lg fa-phone-alt iconos"></i> 3875643808</h1> </a>
-            <h1 className="redescontac text-white my-5"> <i class="fas fa-lg fa-map-marker-alt iconos"></i> Tucumán|Argentina</h1>
-            <a href="mailto:luz.nicole.maria@gmail.com"><h1 className="redescontac text-white my-5"> <i class="far fa-lg fa-envelope iconos"></i> luz.nicole.maria@gmail.com</h1></a>
-            <a href="https://www.linkedin.com/in/nicole-romero-2218361a2/"><h1 className="redescontac text-white my-5"> <i class="fab fa-lg fa-linkedin-in iconos"></i> Nicole-romero</h1></a>
+            <a href="tel:+ 03875643808"> <h2 className="redescontac text-white my-5"> <i class="fas fa-lg fa-phone-alt iconos"></i> 3875643808</h2> </a>
+            <h2 className="redescontac text-white my-5"> <i class="fas fa-lg fa-map-marker-alt iconos"></i> Tucumán|Argentina</h2>
+            <a href="mailto:luz.nicole.maria@gmail.com"><h2 className="redescontac text-white my-5"> <i class="far fa-lg fa-envelope iconos"></i> luz.nicole.maria@gmail.com</h2></a>
+            <a href="https://www.linkedin.com/in/nicole-romero-2218361a2/"><h2 className="redescontac text-white my-5"> <i class="fab fa-lg fa-linkedin-in iconos"></i> Nicole-romero</h2></a>
 
 
           </Col>

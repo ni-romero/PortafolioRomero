@@ -25,15 +25,15 @@ const About = () => {
             <h1 className="textoPrincipal p-3 animate__animated animate__backInDown">HI, i'm Nicole Romero developer Fullstack</h1>
             <br></br>
             <br></br>
-            <h4 className="text-white presentacion mb-4">I am a super motivated person, passionate about new technologies,
+            <h4 className="text-white presentacion mb-4">I am a motivated person, passionate about new technologies,
              with a great desire to learn, ability to work as a team and super responsible.
             My goal is to enter the IT world and participate in new projects.
             I am currently working on freelance projects.</h4>
             <br></br>
             <br></br>
             <div className="d-flex flex-direction-row">
-              <Button size="lg" className="text-center form-control botones m-4" >Contact me</Button><a href="#contact"></a>
-              <Button size="lg" className="text-center botones-trans form-control m-4">Ultimos Trabajos</Button>{' '}<a href="https://github.com/ni-romero"></a>
+            <a href="#contact" className="m-3"> <Button size="lg" className="text-center form-control botones m-4" >Contact  me</Button></a>
+            <a href="https://github.com/ni-romero" className="m-3"> <Button size="lg" className="text-center botones-trans form-control m-4">Ultimos Trabajos</Button>{' '}</a>
             </div>
 
           </Col>
