@@ -40,7 +40,7 @@ app.post("/api/form", (req, res) => {
         });
 
         let mailOptions = {
-            from : "luz.nicole.maria@gmail.com",
+            from : "tamara.sol@gmail.com",
             to: req.body.email,
             replyTo: "luz.nicole.maria@gmail.com",
             subject : req.body.nombre,
