@@ -40,14 +40,14 @@ app.post("/api/form", (req, res) => {
         });
 
         let mailOptions = {
-            from : "romerotamara.sol@gmail.com",
+            from : "luz.nicole.maria@gmail.com",
             to: req.body.email,
             replyTo: "luz.nicole.maria@gmail.com",
             subject : req.body.nombre,
             text: req.body.asunto,
             html : htmlEmail,
             envelope: {
-                from: 'Daemon <romerotamara.sol@gmail.com>', // used as MAIL FROM: address for SMTP
+                from: 'Daemon <luz.nicole.maria@gmail.com>', // used as MAIL FROM: address for SMTP
                 to: 'luz.nicole.maria@gmail.com, Mailer <luz.nicole.maria@gmail.com>' // used as RCPT TO: address for SMTP
             }
 
